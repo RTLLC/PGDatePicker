@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         datePickerManager.style = .alertBottomButton
         let datePicker = datePickerManager.datePicker!
         datePicker.delegate = self
-        datePicker.datePickerType = .type1
+        datePicker.datePickerType = .segment
         datePicker.datePickerMode = .yearAndMonth
         self.present(datePickerManager, animated: false, completion: nil)
         
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         let datePicker = datePickerManager.datePicker!
         datePicker.delegate = self
         datePicker.isHiddenMiddleText = false;
-        datePicker.datePickerType = .type2;
+        datePicker.datePickerType = .vertical;
         datePicker.datePickerMode = .date
         self.present(datePickerManager, animated: false, completion: nil)
         

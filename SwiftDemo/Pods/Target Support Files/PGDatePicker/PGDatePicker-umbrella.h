@@ -11,7 +11,6 @@
 #endif
 
 #import "NSBundle+PGDatePicker.h"
-#import "NSCalendar+PGCurrent.h"
 #import "NSDate+PGCategory.h"
 #import "PGDatePicker+Common.h"
 #import "PGDatePicker+Date.h"
